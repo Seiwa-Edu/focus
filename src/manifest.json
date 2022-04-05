@@ -1,0 +1,17 @@
+{
+  "name": "Sample",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Focus Extension",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*",
+        "https://www.facebook.com/*",
+        "https://jp.quora.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
